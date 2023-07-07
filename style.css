@@ -1,3 +1,10 @@
+.Conteiner {
+
+display: flex;
+flex-direction: column;
+
+}
+
 .Cabeçalho {
 
 width: 100%;
