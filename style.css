@@ -1,22 +1,28 @@
 .Conteiner {
 
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
 }
 
 .Cabeçalho {
 
-width: 100%;
-display: flex;
-flex-direction: column;
-background:greenyellow;
-position: fixed;
-top: 0;
-left: 0;
-text-align: center;
-justify-content: center;
-justify-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background:rgb(112, 178, 12);
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.Titulo-Da-Pagina {
+
+    font-size: 72px;
+
 }
 
 .DIV-Buttons {
@@ -28,42 +34,41 @@ justify-items: center;
 
 .button-001 {
 
-    width: 50px;
-    height: 10px;
-    margin-bottom: 3px;
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 5px;
 }
 
 .button-002 {
 
-    width: 50px;
-    height: 10px;
-    margin-bottom: 3px;
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 5px;
 }
 
 .button-003 {
 
-    width: 50px;
-    height: 10px;
-    margin-bottom: 3px;
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 5px;
 }
 
 .button-004 {
 
-    width: 50px;
-    height: 10px;
-    margin-bottom: 3px;
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 5px;
 }
 
 .button-005 {
 
-    width: 50px;
-    height: 10px;
-    margin-bottom: 3px;
+    width: 100px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 5px;
 }
 
-.button-006 {
-
-    width: 50px;
-    height: 10px;
-    margin-bottom: 3px;
-}
