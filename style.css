@@ -1,74 +1,74 @@
-.Conteiner {
-
-    display: flex;
-    flex-direction: column;
-
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 95%;
+  /* max-width: 900px; Defina um valor máximo para evitar que o conteúdo fique muito largo */
+  margin: 0 auto; /* Centralize o conteúdo na tela */
+  background-color: #F0F0F0;
+  margin-top: 320px;
+  margin-bottom: 20px;
+  border-radius: 15px;
 }
 
-.Cabeçalho {
-
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background:rgb(112, 178, 12);
-    position: fixed;
-    top: 0;
-    left: 0;
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: rgb(112, 178, 12);
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
 }
 
-.Titulo-Da-Pagina {
-
-    font-size: 72px;
-
+.page-title {
+  font-size: 72px;
 }
 
-.DIV-Buttons {
-
-    display: flex;
-    justify-content: space-around;
+.button-container {
+  display: flex;
+  justify-content: space-around;
 }
 
-
-.button-001 {
-
-    width: 100px;
-    height: 50px;
-    margin: 20px;
-    border-radius: 5px;
+.button {
+  width: 140px;
+  height: 70px;
+  margin: 10px;
+  border-radius: 5px;
+  background: rgb(255, 255, 108);
+  font-size: 18px;
 }
 
-.button-002 {
-
-    width: 100px;
-    height: 50px;
-    margin: 20px;
-    border-radius: 5px;
+.button:hover {
+  background: #ffff00;
 }
 
-.button-003 {
-
-    width: 100px;
-    height: 50px;
-    margin: 20px;
-    border-radius: 5px;
+.page {
+  display: flex;
+  flex-direction: column;
 }
 
-.button-004 {
-
-    width: 100px;
-    height: 50px;
-    margin: 20px;
-    border-radius: 5px;
+.page-section {
+  text-align: justify;
+  font-size: 28px;
+  margin: 10px;
 }
 
-.button-005 {
-
-    width: 100px;
-    height: 50px;
-    margin: 20px;
-    border-radius: 5px;
+p {
+  font-family: monospace;
 }
 
+h1 {
+  font-family: monospace;
+}
+
+.text-container {
+  font-size: 24px;
+  margin: 10px;
+}
