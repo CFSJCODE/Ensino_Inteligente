@@ -43,10 +43,12 @@
   border-radius: 5px;
   background: rgb(255, 255, 142);
   font-size: 18px;
+
 }
 
 .button:hover {
   background: #ffff00;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.30);
 }
 
 .page {
