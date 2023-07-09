@@ -91,6 +91,58 @@ font-weight: bold;
 
 }
 
+.footer {
+  background: #edf8ea;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 15px;
+  
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.Localização {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.Endereço {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.CidadeEstado {
+
+  font-size: 14px;
+  margin-bottom: 10px;
+
+}
+
+.CNPJ {
+
+  font-size: 18px;
+  margin-bottom: 10px;
+
+}
+
+.NumeroCNPJ {
+
+  font-size: 14px;
+  margin-bottom: 10px;
+
+}
+
+
 /* Media query para dispositivos móveis */
 @media (max-width: 900px) {
   .button-container {
