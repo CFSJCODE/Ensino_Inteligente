@@ -1,75 +1,89 @@
-.Conteiner-Geral {
-
-width: 100%;
-height: 100%;
-display: flex;
-flex-direction: column;
-
+.Pagina {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: monospace;
 }
 
-.Conteiner-CorpoDaPagina {
-
-    display: flex;
-    flex-direction: column;
-    position: fixed;
+.div-parte01 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
 }
 
-
-.Cabeçalho {
-
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background:rgb(112, 178, 12);
-    position: fixed;
-    top: 0;
-    left: 0;
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-
-
+.areas-do-conhecimento {
+  background: rgb(94, 173, 94);
+  padding: 10px;
+  border-radius: 15px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.Titulo-Da-Pagina {
+.areas-do-conhecimento:hover {
+  background: green;
+  font-weight: bold;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.856);
+}
 
-font-size: 72px;
+.areas-do-conhecimento-texto {
+  font-size: 72px;
+  text-align: center;
+  font-weight: inherit;
+}
 
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .return-button {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #f1f1f1;
-        color: #333;
-        text-decoration: none;
-        border-radius: 5px;
-        font-weight: bold;
-        font-size: 18px;
-        width: 140px;
-        height: 70px;
-        position: absolute;
-        top: 50px;
-        right: 30px;
-        background: rgb(255, 255, 142);
-    }
-  
-  .return-button:hover {
-    background: #ffff00;
-  }
-  
-  .page-section {
-    margin-top: 50px;
-    text-align: justify;
-    font-size: 16px;
-  }
-  
-  p {
-    font-family: monospace;
-  }
-  
-  
+  width: 140px;
+  height: 70px;
+  margin: 10px;
+  border-radius: 5px;
+  background: rgb(255, 255, 167);
+  font-size: 18px;
+  border: none;
+}
 
+.return-button:hover {
+  background: #ffff00;
+}
 
-  
-  
+.page-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  width: 200px; /* Largura desejada */
+  height: 100px; /* Altura desejada */
+  display: flex;
+  margin: 0 10px;
+}
+
+.image-conhecimento {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.areas-do-conhecimento-div-01 {
+  display: flex;
+  flex-direction: row;
+}
+
+.div-button {
+  display: flex;
+  flex-direction: column;
+}
