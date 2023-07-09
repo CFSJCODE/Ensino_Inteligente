@@ -1,34 +1,39 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  width: 95%;
-  /* max-width: 900px; Defina um valor máximo para evitar que o conteúdo fique muito largo */
-  margin: 0 auto; /* Centralize o conteúdo na tela */
-  background-color: #F0F0F0;
-  margin-top: 320px;
-  margin-bottom: 20px;
-  border-radius: 15px;
+.Pagina {
+
+margin: 0;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
 }
 
-.header {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  background: rgb(112, 178, 12);
-  position: fixed;
-  top: 0;
-  left: 0;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
+.nome-da-empresa {
+
+background: rgb(94, 173, 94);
+padding: 10px;
+border-radius: 15px;
+margin: 10px;
+
 }
 
-.page-title {
+.nome-da-empresa:hover {
+
+background: green;
+
+}
+
+.EnsinoInteligente {
+
   font-size: 72px;
+  text-align: center;
+  font-weight: inherit;
+
+}
+
+.EnsinoInteligente:hover {
+
+  font-weight: bold;
+
 }
 
 .button-container {
@@ -41,36 +46,11 @@
   height: 70px;
   margin: 10px;
   border-radius: 5px;
-  background: rgb(255, 255, 142);
+  background: rgb(255, 255, 167);
   font-size: 18px;
-
+  
 }
 
 .button:hover {
   background: #ffff00;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.30);
-}
-
-.page {
-  display: flex;
-  flex-direction: column;
-}
-
-.page-section {
-  text-align: justify;
-  font-size: 28px;
-  margin: 10px;
-}
-
-p {
-  font-family: monospace;
-}
-
-h1 {
-  font-family: monospace;
-}
-
-.text-container {
-  font-size: 24px;
-  margin: 10px;
 }
