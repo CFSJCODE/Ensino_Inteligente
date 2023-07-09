@@ -1,44 +1,33 @@
 .Pagina {
-
-margin: 0;
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .nome-da-empresa {
-
-background: rgb(94, 173, 94);
-padding: 10px;
-border-radius: 15px;
-margin: 10px;
-
+  background: rgb(94, 173, 94);
+  padding: 10px;
+  border-radius: 15px;
+  margin: 10px;
 }
 
 .nome-da-empresa:hover {
-
-background: green;
-
+  background: green;
+  font-weight: bold;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.856);
 }
 
 .EnsinoInteligente {
-
   font-size: 72px;
   text-align: center;
   font-weight: inherit;
-
-}
-
-.EnsinoInteligente:hover {
-
-  font-weight: bold;
-
 }
 
 .button-container {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .button {
@@ -48,7 +37,6 @@ background: green;
   border-radius: 5px;
   background: rgb(255, 255, 167);
   font-size: 18px;
-  
 }
 
 .button:hover {
@@ -56,17 +44,58 @@ background: green;
 }
 
 .page-section {
-
-  margin: 10px 30px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
   background: #edf8ea;
   padding: 10px;
   border-radius: 15px;
+}
+
+.page-section:hover {
+
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.452);
 
 }
 
 .texto-corporativo {
-
   text-align: justify;
   font-size: 32px;
+  font-family: monospace;
+}
 
+.texto-corporativo-in {
+
+  text-align: center;
+  font-size: 38px;
+  font-family: monospace;
+  font-weight: bolder;
+
+}
+
+.DestaqueNomeDaEmpresa001 {
+
+color: #ff0000;
+font-family: monospace;
+font-weight: bold;
+
+}
+
+.DestaqueNomeDaEmpresa002 {
+
+  color: #ff0000;
+  font-family: monospace;
+  font-weight: bold;
+
+}
+
+/* Media query para dispositivos móveis */
+@media (max-width: 900px) {
+  .button-container {
+    flex-direction: column;
+  }
+
+  .button {
+    width: 100%;
+  }
 }
