@@ -1,0 +1,29 @@
+.page-section {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: #edf8ea;
+    padding: 10px;
+    border-radius: 15px;
+  }
+  
+  .page-section:hover {
+  
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.452);
+  
+  }
+  
+  .texto-corporativo {
+    text-align: justify;
+    font-size: 32px;
+    font-family: monospace;
+  }
+  
+  .texto-corporativo-in {
+  
+    text-align: center;
+    font-size: 38px;
+    font-family: monospace;
+    font-weight: bolder;
+  
+  }
