@@ -39,6 +39,7 @@
   background: rgb(255, 255, 167);
   font-size: 18px;
   border: none;
+  cursor: pointer;
 }
 
 .button:hover {
