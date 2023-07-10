@@ -59,12 +59,13 @@
   margin-bottom: 0;
   width: 100%;
   margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .menu:hover {
-
-background: green;
-
+  background: green;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -74,6 +75,7 @@ background: green;
 
   .main-nav {
     font-size: 17px;
+    
   }
 
   .main-nav > ul {
@@ -132,21 +134,16 @@ background: green;
     opacity: 0;
     font-size: 14px;
     display: block !important;
-    border-radius: 0 0px 15px 0px; /* Adicionando a propriedade border-radius à direita */
+    border-radius: 0 0px 15px 15px;
   }
 
   .MC {
-
     border-radius: 0 0px 15px 0px;
-
   }
 
-  .CiênciasDaNatureza {
-
+  /* .CiênciasDaNatureza {
     border-radius: 0 15px 15px 15px;
-
-  }
-  
+  } */
 
   .main-nav > ul > li ul li {
     display: block;
@@ -196,9 +193,8 @@ background: green;
 
 @media only screen and (max-width: 1199px) {
   .main-nav {
-    position: fixed;
+    /* position: fixed; */
     width: 95%;
-    top: 0;
     right: -250px;
     background: rgb(94, 173, 94);
     height: 100%;
@@ -209,9 +205,12 @@ background: green;
   }
 
   .main-nav ul {
+    display: flex;
+    flex-direction: row; 
+     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    display: block;
+    /* display: block; */
     margin-top: 0px;
   }
 
@@ -266,9 +265,8 @@ background: green;
     border-top: 6px solid #fff;
     position: absolute;
     right: 17px;
-    top: 20px;
+    top: 20px;    
     z-index: 10;
-    
   }
 
   .main-nav ul ul {
