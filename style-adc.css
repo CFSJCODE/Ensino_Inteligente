@@ -195,6 +195,7 @@
   .main-nav {
     /* position: fixed; */
     width: 95%;
+
     right: -250px;
     background: rgb(94, 173, 94);
     height: 100%;

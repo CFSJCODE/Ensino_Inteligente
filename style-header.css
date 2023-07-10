@@ -1,0 +1,45 @@
+.header-texto {
+    background: rgb(94, 173, 94);
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-texto:hover {
+    background: green;
+    font-weight: bold;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.856);
+  }
+  
+  .h1-header-texto {
+    font-size: 72px;
+    text-align: center;
+    font-weight: inherit;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .return-button {
+    width: 140px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 5px;
+    background: rgb(255, 255, 167);
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .return-button:hover {
+    background: #ffff00;
+  }
