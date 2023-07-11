@@ -1,76 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matemática</title>
-    <link rel="stylesheet" href="style-matematica.css">
-    <link rel="stylesheet" href="style-header.css">
-    <!-- <script src="https://apis.google.com/js/api.js"></script>
-    <script src="google-agenda.js"></script> -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matemática</title>
+  <link rel="stylesheet" href="style-matematica.css">
+  <link rel="stylesheet" href="style-header.css">
+  <script src="agendamento-de-aulas.js"></script>
+  <script src="script-adc.js"></script>
 </head>
+
 <body>
-    
-    <div class="Conteiner-Geral">
+  <header class="header-texto">
+    <h1 class="h1-header-texto">Matemática</h1>
+    <div class="button-container">
+      <button class="return-button" onclick="Return_Button()">Voltar</button>
+    </div>
+  </header>
 
-        <header class="header-texto">
+  <section class="page-section">
+    <div class="page">
+      <p class="texto-corporativo">
+        Bem-vindo à nossa página de marcação de aulas de <strong class="matemática-001">matemática!</strong>
+        Aqui você pode agendar suas aulas de <strong class="matemática-002">matemática</strong>,
+        seja para um formato online conveniente ou em uma localização presencial de sua escolha.
+        Nossos professores experientes e qualificados estão prontos para ajudá-lo a aprimorar suas habilidades em
+        <strong class="matemática-003">matemática</strong>.
+      </p>
+    </div>
+  </section>
 
-            <h1 class="h1-header-texto">
-                Matemática
-            </h1>
-    
-            <div class="button-container">
-                <button class="return-button" onclick="Return_Button()">
-                    Voltar
-                </button>
-            </div>
-    
-        </header>
-    
-        <script src="script-adc.js"></script>
+  <div class="conteiner-forms">
+    <section class="section-forms">
+      <form class="Forms-Agendamento-De-Aula">
+        <h1 class="Title-Forms">Formulário De Marcação de Aulas</h1>
+        <label class="data" for="data">Data:</label>
+        <input class="data" type="date" id="data" name="data" required>
+        <label class="horario" for="horario">Horário:</label>
+        <select class="horario" id="horario" name="horario" required>
+          <option value="">Selecione</option>
+          <option value="15:00">15:00</option>
+          <option value="15:45">15:45</option>
+          <option value="16:30">16:30</option>
+          <option value="17:15">17:15</option>
+        </select>
+        <button class="agendar-button" type="submit">Agendar</button>
+      </form>
+    </section>
+  </div>
 
-        <section class="page-section">
-            <div class="page">
-                <p class="texto-corporativo"> 
-                    Bem-vindo à nossa página de marcação de aulas de <strong class="matemática-001">matemática!</strong> Aqui você pode agendar suas aulas de <strong class="matemática-002">matemática</strong>, seja para um formato online conveniente ou em uma localização presencial de sua escolha. Nossos professores experientes e qualificados estão prontos para ajudá-lo a aprimorar suas habilidades em <strong class="matemática-003">matemática</strong>.
-                    <!-- <p class="texto-corporativo-in"> Conheça nossos cursos e transforme seu futuro hoje mesmo! </p> -->
-
-                </p>
-            </div>
-        </section>
-
-        <!-- <button onclick="handleClientLoad()">Agendar reuniões</button>
-
-        <script async defer src="https://apis.google.com/js/api.js"
-                onload="this.onload=function(){};handleClientLoad()"
-                onreadystatechange="if (this.readyState === 'complete') this.onload()">
-        </script> -->
-
-        <div class="conteiner-forms">
-
-            <section class="section-forms">
-
-                <h1 class="Title-Forms">Formulário de Marcação de Aulas</h1>
-                <form class="Forms-Agendamento-De-Aula">
-                  <label class="data" for="data">Data:</label>
-                  <input class="data" type="date" id="data" name="data" required>
-              
-                  <label class="horario" for="horario">Horário:</label>
-                  <select class="horario" id="horario" name="horario" required>
-                    <option value="">Selecione</option>
-                    <option value="15:00">15:00</option>
-                    <option value="15:45">15:45</option>
-                    <option value="16:30">16:30</option>
-                    <option value="17:15">17:15</option>
-                  </select>
-              
-                  <button class="agendar-button" type="submit">Agendar</button>
-                </form>
-
-            </section>
-
-        </div>
-
-            <script src="agendamento-de-aulas.js"></script>
 </body>
+
 </html>

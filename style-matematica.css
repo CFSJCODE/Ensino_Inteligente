@@ -6,11 +6,7 @@
     padding: 10px;
     border-radius: 15px 15px 0px 0px;
   }
-  
-  .page-section:hover {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.452);
-  }
-  
+
   .texto-corporativo {
     text-align: justify;
     font-size: 24px;
@@ -45,16 +41,6 @@
       min-width: 400px;
     }
   }
-
-  
-  /* Código De Estilização Do Forms */
-
-/* Estilos gerais */
-/* body {
-    background-color: #f7f7f7;
-    color: #333;
-    font-family: 'Segoe UI', sans-serif;
-  } */
   
   /* Estilos do formulário */
   .Title-Forms {
@@ -75,7 +61,7 @@
   .Forms-Agendamento-De-Aula label {
     display: block;
     margin-top: 10px;
-    margin-bottom: 5px; /* Espaçamento inferior entre os elementos */
+    margin-bottom: 5px;
     font-size: 16px;
     font-weight: bold;
   }
@@ -84,14 +70,14 @@
   .Forms-Agendamento-De-Aula select.horario {
     width: 100%;
     padding: 10px;
-    margin-bottom: 10px; /* Espaçamento inferior entre os elementos */
+    margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
     color: #050505;
     outline: none;
     transition: border-color 0.3s ease;
-    box-sizing: border-box; /* Adicionado para corrigir o espaçamento direito */
+    box-sizing: border-box;
   }
   
   .Forms-Agendamento-De-Aula input.data:focus,
@@ -102,7 +88,7 @@
   .Forms-Agendamento-De-Aula button.agendar-button {
     width: 100%;
     padding: 10px;
-    margin-top: 10px; /* Espaçamento superior entre os elementos */
+    margin-top: 10px;
     background: rgb(255, 255, 167);
     color: #000000;
     font-size: 16px;
@@ -118,32 +104,13 @@
   }
   
   .section-forms {
-
     background: #edf8ea;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 20px;
+    margin: 0 20px;
     border-radius: 0px 0px 15px 15px;
-
   }
-
-  /* 
   
-  Lembra que ele sempre funciona em sentido horário, começando da ponta esquerda superior, ou seja:
-
-        border-radius: 1px 2px 3px 4px;
-
-    é igual a:
-
-        border-top-left-radius: 1px;
-        border-top-right-radius: 2px;
-        border-bottom-right-radius: 3px;
-        border-bottom-left-radius: 4px;
-
-        vale para padding, margin e afins
-
-        lembrar que ela faz um círculo
-    
-    */
+  .Forms-Agendamento-De-Aula:hover .Title-Forms {
+    font-weight: bold;
+  }
   
