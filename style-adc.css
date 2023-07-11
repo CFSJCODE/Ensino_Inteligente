@@ -6,54 +6,6 @@
   font-family: monospace;
 }
 
-.areas-do-conhecimento {
-  background: rgb(94, 173, 94);
-  padding: 10px;
-  border-radius: 15px;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.areas-do-conhecimento:hover {
-  background: green;
-  font-weight: bold;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.856);
-}
-
-.areas-do-conhecimento-texto {
-  font-size: 72px;
-  text-align: center;
-  font-weight: inherit;
-}
-
-.button-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-}
-
-.return-button {
-  width: 140px;
-  height: 70px;
-  margin: 10px;
-  border-radius: 5px;
-  background: rgb(255, 255, 167);
-  font-size: 18px;
-  border: none;
-  cursor: pointer;
-}
-
-.return-button:hover {
-  background: #ffff00;
-}
-
-/* Código Do Menu */
-
 .menu {
   background: rgb(94, 173, 94);
   margin-bottom: 0;
@@ -68,14 +20,15 @@
   background: green;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 400px) {
   .desk-hide {
     display: none;
   }
 
   .main-nav {
     font-size: 17px;
-    
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .main-nav > ul {
@@ -134,16 +87,12 @@
     opacity: 0;
     font-size: 14px;
     display: block !important;
-    border-radius: 0 0px 15px 15px;
+    border-radius: 0 0 15px 15px;
   }
 
   .MC {
-    border-radius: 0 0px 15px 0px;
+    border-radius: 0 0 15px 0;
   }
-
-  /* .CiênciasDaNatureza {
-    border-radius: 0 15px 15px 15px;
-  } */
 
   .main-nav > ul > li ul li {
     display: block;
@@ -193,10 +142,9 @@
 
 @media only screen and (max-width: 1199px) {
   .main-nav {
-    /* position: fixed; */
-    width: 95%;
-
-    right: -250px;
+    position: fixed;
+    width: 100%;
+    right: -100%;
     background: rgb(94, 173, 94);
     height: 100%;
     transition: all ease 0.2s;
@@ -206,12 +154,9 @@
   }
 
   .main-nav ul {
-    display: flex;
-    flex-direction: row; 
-     flex-wrap: wrap;
+    display: block;
     margin: 0;
     padding: 0;
-    /* display: block; */
     margin-top: 0px;
   }
 
@@ -251,8 +196,6 @@
     top: 0;
     right: 0;
     cursor: pointer;
-    -webkit-transition: all ease 0.5s;
-    -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
     border-radius: 0 15px 15px 15px;
   }
@@ -266,25 +209,48 @@
     border-top: 6px solid #fff;
     position: absolute;
     right: 17px;
-    top: 20px;    
+    top: 20px;
     z-index: 10;
   }
-
+  
   .main-nav ul ul {
     margin: 0;
     display: none;
   }
-
+  
   .main-nav ul ul li:last-child {
     border-bottom: 0;
   }
-
+  
   .main-nav ul ul li:first-child {
     border-top: 1px solid #246ab3;
   }
-
+  
   .main-nav ul ul li a {
     padding-left: 20px;
   }
-
-}
+  
+  @media (max-width: 768px) {
+    .main-nav ul li.submenu i:after {
+      right: 15px;
+      top: 14px;
+    }
+  
+    .main-nav ul li.submenu:hover > ul {
+      display: block;
+    }
+  
+    .main-nav ul ul {
+      position: static;
+      background-color: #fff;
+    }
+  
+    .main-nav ul ul li:first-child {
+      border-top: 0;
+    }
+  
+    .main-nav ul ul li a {
+      padding: 10px;
+    }
+  }
+}  
