@@ -1,0 +1,115 @@
+.page-section {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: #edf8ea;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+  }
+
+  .texto-corporativo {
+    text-align: justify;
+    font-size: 24px;
+    font-family: monospace;
+  }
+  
+  .texto-corporativo-in {
+    text-align: center;
+    font-size: 28px;
+    font-family: monospace;
+    font-weight: bolder;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .page-section {
+      margin: 10px;
+      padding: 5px;
+      border-radius: 10px;
+    }
+  
+    .texto-corporativo {
+      font-size: 20px;
+    }
+  
+    .texto-corporativo-in {
+      font-size: 24px;
+    }
+  }
+  
+  @media only screen and (min-width: 400px) {
+    .page-section {
+      min-width: 400px;
+    }
+  }
+  
+  /* Estilos do formulário */
+  .Title-Forms {
+    text-align: center;
+    color: #000000;
+  }
+  
+  .Forms-Agendamento-De-Aula {
+    width: 95%;
+    max-width: 400px;
+    margin: 0 auto;
+    background: #b0c5ab;
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Forms-Agendamento-De-Aula label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .Forms-Agendamento-De-Aula input.data,
+  .Forms-Agendamento-De-Aula select.horario {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #050505;
+    outline: none;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+  .Forms-Agendamento-De-Aula input.data:focus,
+  .Forms-Agendamento-De-Aula select.horario:focus {
+    border-color: #002900;
+  }
+  
+  .Forms-Agendamento-De-Aula button.agendar-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: rgb(255, 255, 167);
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Forms-Agendamento-De-Aula button.agendar-button:hover {
+    background: #ffff00;
+  }
+  
+  .section-forms {
+    background: #edf8ea;
+    padding: 20px;
+    margin: 0 20px;
+    border-radius: 0px 0px 15px 15px;
+  }
+  
+  .Forms-Agendamento-De-Aula:hover .Title-Forms {
+    font-weight: bold;
+  }
