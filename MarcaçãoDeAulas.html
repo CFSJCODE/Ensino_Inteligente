@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcação De Aulas</title>
+    <link rel="stylesheet" href="style-adc.css">
+    <link rel="stylesheet" href="style-header.css">
+</head>
+<body class="Pagina"> 
+    <div class="Conteiner-Geral">
+
+    <header class="header-texto">
+
+        <h1 class="h1-header-texto">
+            Áreas Do Conhecimento
+        </h1>
+
+        <div class="button-container">
+            <button class="return-button" onclick="Return_Button()">
+                Voltar
+            </button>
+        </div>
+
+    </header>
+
+    <script src="script-button.js"></script>
+
+    <div class="conteiner-forms">
+        <section class="section-forms">
+          <form class="Forms-Agendamento-De-Aula">
+            <h1 class="Title-Forms">Formulário De Marcação De Aulas</h1>
+            <label class="Label-Campo-De-Estudo" for="Campo De Estudo">Campo De Estudo</label>
+            <select class="Seleção-De-Campo-De-Estudo" name="Seleção De Campo De Estudo" id="Seleção-De-Campo-De-Estudo">
+                <option value="">Selecione</option>
+                <option value="Ciências Exatas">Ciências Exatas</option>
+                <option value="Ciências Da Natureza">Ciências Da Natureza</option>
+                <option value="Ciências Humanas">Ciências Humanas</option>
+                <option value="Linguagens">Linguagens</option>
+                <option value="Linguagens">Cursos De Extensão Curricular</option>
+            </select>
+            <label class="Label-Modalidade" for="Modalidade">Modalidade</label>
+            <select class="Seleção-De-Modalidade" name="Seleção De Modalidade" id="Seleção-De-Modalidade">
+                <option value="">Selecione</option>
+                <option value="Presencial">Presencial</option>
+                <option value="EAD">EAD</option>
+            </select>
+            <label class="data" for="data">Data:</label>
+            <input class="data" type="date" id="data" name="data" required>
+            <label class="horario" for="horario">Horário:</label>
+            <select class="horario" id="horario" name="horario" required>
+              <option value="">Selecione</option>
+              <option value="15:00">15:00</option>
+              <option value="15:45">15:45</option>
+              <option value="16:30">16:30</option>
+              <option value="17:15">17:15</option>
+            </select>
+            <button class="agendar-button" type="submit">Agendar</button>
+          </form>
+        </section>
+      </div>
+
+</body>
+</html>
+

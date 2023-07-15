@@ -1,5 +1,5 @@
-function PageAreasDoConhecimento() {
-    window.location.href = 'AreasDoConhecimento.html';
+function MarcaçãoDeAulas() {
+    window.location.href = 'MarcaçãoDeAulas.html';
 }
 
 function Page_AulasAoVivo() {
