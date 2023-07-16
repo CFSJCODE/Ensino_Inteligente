@@ -11,7 +11,7 @@ function Page_AulasGravadas() {
 }
 
 function Page_EntreEmContato() {
-    window.location.href = 'URL_DA_PAGINA_ENTRE_EM_CONTATO';
+    window.location.href = 'Contato.html';
 }
 
 function Page_PlataformaDoAluno() {
