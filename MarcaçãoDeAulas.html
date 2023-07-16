@@ -22,61 +22,70 @@
             <section class="section-forms">
                 <form class="Forms-Agendamento-De-Aula">
                     <h1 class="Title-Forms">Formulário De Marcação De Aulas</h1>
-                    <label class="Label-Campo-De-Estudo" for="Seleção-De-Campo-De-Estudo">Campo De Estudo</label>
-                    <select class="Seleção-De-Campo-De-Estudo" id="Seleção-De-Campo-De-Estudo" required onchange="handleCampoDeEstudoChange()">
-                        <option value="">Selecione</option>
-                        <option value="Ciências Exatas">Ciências Exatas</option>
-                        <option value="Ciências Da Natureza">Ciências Da Natureza</option>
-                        <option value="Ciências Humanas">Ciências Humanas</option>
-                        <option value="Linguagens">Linguagens</option>
-                        <option value="Cursos De Extensão Curricular">Cursos De Extensão Curricular</option>
-                    </select>
-                    <label class="Label-Componente-Curricular" for="Seleção-De-Componente-Curricular">Componente Curricular</label>
-                    <select class="Seleção-De-Componente-Curricular" id="Seleção-De-Componente-Curricular" required>
-                        <option value="">Selecione</option>
-                        <option value="Matemática">Matemática</option>
-                        <option value="Estratégias Financeiras">Estratégias Financeiras</option>
-                        <option value="Matemática Aplicada A Computação">Matemática Aplicada A Computação</option>
-                        <option value="Biotecnologia">Biotecnologia</option>
-                        <option value="Astrofísica">Astrofísica</option>
-                        <option value="Física Teorica">Física Teorica</option>
-                        <option value="Filosofia Da Informação">Filosofia Da Informação</option>
-                        <option value="Sociologia Aplicada A Arquitetura E A Engeharia Civil">Sociologia Aplicada A Arquitetura E A Engeharia Civil</option>
-                        <option value="Geomorfologia Dos Dobramentos Modernos Na Europa">Geomorfologia Dos Dobramentos Modernos Na Europa</option>
-                        <option value="A História Da Tecnologia E Os Seus Impactos Socioculturais">A História Da Tecnologia E Os Seus Impactos Socioculturais</option>
-                        <option value="Dominio Linguistico E Comunicação">Dominio Linguistico E Comunicação</option>
-                        <option value="Produção Editorial">Produção Editorial</option>
-                        <option value="Comunição Corporativa E Mentorias Corporativas">Comunição Corporativa E Mentorias Corporativas</option>
-                        <option value="Introdução A Informática E Os Seus Princípios">Introdução A Informática E Os Seus Princípios</option>
-                        <option value="Introdução Aos Fundamentos De Elétrica Residencial">Introdução Aos Fundamentos De Elétrica Residencial</option>
-                        <option value="Implementação De Sistemas De Automação Residencial Centralizado E Cabeado">Implementação De Sistemas De Automação Residencial</option>
-                        <option value="Introdução A Eletrônica">Introdução A Eletrônica</option>
-                        <option value="Informática Avançada">Informática Avançada</option>
-                        <option value="Linguagens De Programação">Linguagens De Programação</option>
-                        <option value="Modelagem 3D">Modelagem 3D</option>
-                        <option value="Eletrônica Usando Sistemas De Protipagem">Eletrônica Usando Sistemas De Protipagem</option>
-                        <option value="Infraestrutura De TI">Infraestrutura De TI</option>
-                        <option value="Artesanato E Atelier">Artesanato E Atelier</option>
-                        <option value="Música">Música</option>
-                        <option value="Desenvolvimento De Projetos Pessoais">Desenvolvimento De Projetos Pessoais</option>
-                    
-                    </select>
-                    <label class="Label-Modalidade" for="Seleção-De-Modalidade">Modalidade</label>
-                    <select class="Seleção-De-Modalidade" id="Seleção-De-Modalidade" required>
-                        <option value="">Selecione</option>
-                        <option value="Presencial">Presencial</option>
-                        <option value="EAD">EAD</option>
-                    </select>
-                    <label class="data" for="data">Data:</label>
-                    <input class="data" type="date" id="data" name="data" required>
-                    <label class="horario" for="horario">Horário:</label>
-                    <select class="horario" id="horario" name="horario" required>
-                        <option value="">Selecione</option>
-                        <option value="15:00">15:00</option>
-                        <option value="15:45">15:45</option>
-                        <option value="16:30">16:30</option>
-                        <option value="17:15">17:15</option>
-                    </select>
+                    <div class="form-group">
+                        <label for="campo-de-estudo-select">Campo De Estudo</label>
+                        <select class="Seleção-De-Campo-De-Estudo" id="campo-de-estudo-select" required onchange="handleCampoDeEstudoChange()">
+                            <option value="">Selecione</option>
+                            <option value="Ciências Exatas">Ciências Exatas</option>
+                            <option value="Ciências Da Natureza">Ciências Da Natureza</option>
+                            <option value="Ciências Humanas">Ciências Humanas</option>
+                            <option value="Linguagens">Linguagens</option>
+                            <option value="Cursos De Extensão Curricular">Cursos De Extensão Curricular</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="componente-curricular-select">Componente Curricular</label>
+                        <select class="Seleção-De-Componente-Curricular" id="componente-curricular-select" required>
+                            <option value="">Selecione</option>
+                            <option value="Matemática">Matemática</option>
+                            <option value="Estratégias Financeiras">Estratégias Financeiras</option>
+                            <option value="Matemática Aplicada A Computação">Matemática Aplicada A Computação</option>
+                            <option value="Biotecnologia">Biotecnologia</option>
+                            <option value="Astrofísica">Astrofísica</option>
+                            <option value="Física Teorica">Física Teorica</option>
+                            <option value="Filosofia Da Informação">Filosofia Da Informação</option>
+                            <option value="Sociologia Aplicada A Arquitetura E A Engeharia Civil">Sociologia Aplicada A Arquitetura E A Engeharia Civil</option>
+                            <option value="Geomorfologia Dos Dobramentos Modernos Na Europa">Geomorfologia Dos Dobramentos Modernos Na Europa</option>
+                            <option value="A História Da Tecnologia E Os Seus Impactos Socioculturais">A História Da Tecnologia E Os Seus Impactos Socioculturais</option>
+                            <option value="Dominio Linguistico E Comunicação">Dominio Linguistico E Comunicação</option>
+                            <option value="Produção Editorial">Produção Editorial</option>
+                            <option value="Comunição Corporativa E Mentorias Corporativas">Comunição Corporativa E Mentorias Corporativas</option>
+                            <option value="Introdução A Informática E Os Seus Princípios">Introdução A Informática E Os Seus Princípios</option>
+                            <option value="Introdução Aos Fundamentos De Elétrica Residencial">Introdução Aos Fundamentos De Elétrica Residencial</option>
+                            <option value="Implementação De Sistemas De Automação Residencial Centralizado E Cabeado">Implementação De Sistemas De Automação Residencial</option>
+                            <option value="Introdução A Eletrônica">Introdução A Eletrônica</option>
+                            <option value="Informática Avançada">Informática Avançada</option>
+                            <option value="Linguagens De Programação">Linguagens De Programação</option>
+                            <option value="Modelagem 3D">Modelagem 3D</option>
+                            <option value="Eletrônica Usando Sistemas De Protipagem">Eletrônica Usando Sistemas De Protipagem</option>
+                            <option value="Infraestrutura De TI">Infraestrutura De TI</option>
+                            <option value="Artesanato E Atelier">Artesanato E Atelier</option>
+                            <option value="Música">Música</option>
+                            <option value="Desenvolvimento De Projetos Pessoais">Desenvolvimento De Projetos Pessoais</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="modalidade-select">Modalidade</label>
+                        <select class="Seleção-De-Modalidade" id="modalidade-select" required>
+                            <option value="">Selecione</option>
+                            <option value="Presencial">Presencial</option>
+                            <option value="EAD">EAD</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="data">Data:</label>
+                        <input class="data" type="date" id="data" name="data" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="horario-select">Horário:</label>
+                        <select class="horario" id="horario-select" name="horario" required>
+                            <option value="">Selecione</option>
+                            <option value="15:00">15:00</option>
+                            <option value="15:45">15:45</option>
+                            <option value="16:30">16:30</option>
+                            <option value="17:15">17:15</option>
+                        </select>
+                    </div>
                     <button class="agendar-button" type="submit">Agendar</button>
                 </form>
             </section>
