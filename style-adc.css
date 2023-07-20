@@ -6,19 +6,22 @@
 }
 
 /* Estilos do formulário */
-.Title-Forms {
-  text-align: center;
-  color: #000000;
-}
-
+/* Estilo geral do formulário */
 .Forms-Agendamento-De-Aula {
   width: 95%;
-  max-width: 400px;
+  max-width: 700px;
   margin: 0 auto;
   background: #b0c5ab;
   border-radius: 6px;
-  padding: 20px;
+  padding: 40px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Title-Forms {
+  text-align: center;
+  color:rgb(94, 173, 94);
+  font-size: 32px;
+  font-weight: bold;
 }
 
 .Forms-Agendamento-De-Aula label {
@@ -72,6 +75,83 @@
   border-radius: 0px 0px 15px 15px;
 }
 
+/* Responsividade */
+@media screen and (max-width: 600px) {
+  .Forms-Agendamento-De-Aula {
+    width: 90%;
+  }
+}
+
+/* Animações */
 .Forms-Agendamento-De-Aula:hover .Title-Forms {
-  font-weight: bold;
+  font-size: 38px;
+  color:  green;
+  transition: font-size 0.5s ease, color 0.5s ease;
+}
+
+/* Codigos Em Teste */
+
+.Seleção-De-Campo-De-Estudo{
+
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #050505;
+  outline: none;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+  
+
+}
+
+.Seleção-De-Campo-De-Estudo:hover {
+
+  border-color: #002900;
+
+}
+
+.Seleção-De-Componente-Curricular {
+
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #050505;
+  outline: none;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+  
+
+}
+
+.Seleção-De-Componente-Curricular:hover {
+
+  border-color: #002900;
+
+}
+
+.Seleção-De-Modalidade {
+
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #050505;
+  outline: none;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+
+}
+
+.Seleção-De-Modalidade:hover {
+
+  border-color: #002900;
+
 }
