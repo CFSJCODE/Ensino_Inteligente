@@ -15,5 +15,5 @@ function Page_EntreEmContato() {
 }
 
 function Page_PlataformaDoAluno() {
-    window.location.href = 'URL_DA_PAGINA_PLATAFORMA_DO_ALUNO';
+    window.location.href = 'PlataformaDoAluno.html';
 }

@@ -1,5 +1,50 @@
-.Conteiner-Geral {
+.Pagina {
 
-    background: #edf8ea;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.Conteiner-Form-Contato {
+    padding: 30px;
+    width: 1000px;
+    margin: 0 auto; /* Centralizar horizontalmente */
+    display: flex;
+    flex-direction: column; /* Alinhar os elementos verticalmente */
+    justify-content: center; /* Centralizar verticalmente */
+    align-items: center; /* Centralizar horizontalmente */
+    background: #b0c5ab;
+    border-radius: 15px;
 
 }
+    
+.input-text {
+
+    margin-top: 50px;
+
+}
+
+.submit-button {
+
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+    background: rgb(255, 255, 167);
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+    
+}
+
+.submit-button:hover {
+
+background: yellow;
+
+}
+
