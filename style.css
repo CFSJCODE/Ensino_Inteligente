@@ -6,14 +6,18 @@
 }
 
 .nome-da-empresa {
-  background: rgb(94, 173, 94);
+  background: linear-gradient(45deg, rgb(218, 112, 214), rgb(255, 215, 0));
   padding: 10px;
   border-radius: 15px;
   margin: 10px;
+    font-size: 72px;
+  text-align: center;
+  font-weight: inherit;
+  color: #000000; /* Change header text color to white for better visibility */
 }
 
 .nome-da-empresa:hover {
-  background: green;
+  background: linear-gradient(45deg, rgb(128, 0, 128), rgb(255, 255, 0));
   font-weight: bold;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.856);
 }
@@ -44,13 +48,15 @@
 
 .button:hover {
   background: #ffff00;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .page-section {
   margin-top: 10px;
   margin-left: 20px;
   margin-right: 20px;
-  background: #edf8ea;
+  background: #f1dff1;
   padding: 10px;
   border-radius: 15px;
 }
@@ -93,7 +99,7 @@ font-weight: bold;
 }
 
 .footer {
-  background: #edf8ea;
+  background: #f1dff1;
   padding: 20px;
   text-align: center;
   margin-top: 20px;

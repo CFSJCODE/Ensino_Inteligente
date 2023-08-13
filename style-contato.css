@@ -1,10 +1,9 @@
 .Pagina {
-
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    background:#f1dff1;
 }
-
 
 .Conteiner-Form-Contato {
     padding: 30px;
@@ -14,37 +13,28 @@
     flex-direction: column; /* Alinhar os elementos verticalmente */
     justify-content: center; /* Centralizar verticalmente */
     align-items: center; /* Centralizar horizontalmente */
-    background: #b0c5ab;
+    background: #f3b3f3;
     border-radius: 15px;
-
 }
     
 .input-text {
-
     margin-top: 50px;
-
 }
 
 .submit-button {
-
     margin-top: 30px;
     width: 100%;
     padding: 10px;
     margin-top: 30px;
-    background: rgb(255, 255, 167);
+    background: #c4e6c4; /* Verde pastel para o botão */
     color: #000000;
     font-size: 16px;
     font-weight: bold;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-
-    
 }
 
 .submit-button:hover {
-
-background: yellow;
-
+    background: #b8e6b8; /* Verde pastel mais escuro ao passar o mouse */
 }
-
