@@ -1,5 +1,5 @@
 .header-texto {
-  background: linear-gradient(45deg, rgb(218, 112, 214), rgb(255, 215, 0));
+  background: linear-gradient(45deg, #da70d6, #ffd700);
   padding: 10px;
   border-radius: 15px;
   margin: 10px;
@@ -7,10 +7,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: background 0.3s ease, font-weight 0.3s ease, box-shadow 0.3s ease;
 }
 
 .header-texto:hover {
-  background: linear-gradient(45deg, rgb(128, 0, 128), rgb(255, 255, 0));
+  background: linear-gradient(45deg, #800080, #ffff00);
   font-weight: bold;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.856);
 }
@@ -18,8 +19,7 @@
 .h1-header-texto {
   font-size: 72px;
   text-align: center;
-  font-weight: inherit;
-  color: #fff; /* Change header text color to white for better visibility */
+  color: #fff;
 }
 
 .button-container {
@@ -35,11 +35,12 @@
   height: 70px;
   margin: 10px;
   border-radius: 5px;
-  background: rgb(255, 255, 167);
+  background: #ffffa7;
   font-size: 18px;
   border: none;
   cursor: pointer;
-  color: #000000; /* Change button text color to white for better visibility */
+  color: #000;
+  transition: background-color 0.3s ease, font-size 0.3s ease, font-weight 0.3s ease;
 }
 
 .return-button:hover {

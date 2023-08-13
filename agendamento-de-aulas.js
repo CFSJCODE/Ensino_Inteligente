@@ -11,5 +11,5 @@ document.querySelector('form').addEventListener('submit', function(event) {
   console.log('Início:', startDateTime);
   console.log('Fim:', endDateTime);
 
-  // Aqui você pode adicionar o código para agendar a aula, como fazer chamadas de API para o Google Agenda, por exemplo.
+  // Adicione aqui o código para agendar a aula (por exemplo, fazer chamadas de API).
 });

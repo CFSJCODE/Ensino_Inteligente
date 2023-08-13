@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   font-family: monospace;
-  background: #D6AED6
+  background: #D6AED6;
 }
 
 .Forms-Agendamento-De-Aula {
@@ -13,25 +13,21 @@
   background: #A35CA3;
   border-radius: 6px;
   padding: 40px;
-  /* Add 3D effect with box-shadow */
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
-  transition: box-shadow 0.3s ease; /* Optional: Add smooth transition */
+  transition: box-shadow 0.3s ease;
 }
 
 .Forms-Agendamento-De-Aula:hover {
-  /* Adjust the box-shadow to create the 3D effect on hover */
   box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3), 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .Title-Forms {
   text-align: center;
-  color:#E6E6FA;
+  color: #E6E6FA;
   font-size: 32px;
   font-weight: bold;
+  transition: font-size 0.5s ease, color 0.5s ease;
 }
-
-/* Restante do código permanece inalterado */
-
 
 .Forms-Agendamento-De-Aula label {
   display: block;
@@ -40,8 +36,11 @@
   font-weight: bold;
 }
 
-.Forms-Agendamento-De-Aula input.data,
-.Forms-Agendamento-De-Aula select.horario {
+.Forms-Agendamento-De-Aula input,
+.Forms-Agendamento-De-Aula select,
+.Seleção-De-Campo-De-Estudo,
+.Seleção-De-Componente-Curricular,
+.Seleção-De-Modalidade {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
@@ -54,8 +53,11 @@
   box-sizing: border-box;
 }
 
-.Forms-Agendamento-De-Aula input.data:focus,
-.Forms-Agendamento-De-Aula select.horario:focus {
+.Forms-Agendamento-De-Aula input:focus,
+.Forms-Agendamento-De-Aula select:focus,
+.Seleção-De-Campo-De-Estudo:focus,
+.Seleção-De-Componente-Curricular:focus,
+.Seleção-De-Modalidade:focus {
   border-color: #002900;
 }
 
@@ -63,8 +65,8 @@
   width: 100%;
   padding: 10px;
   margin-top: 10px;
-  background: rgb(255, 255, 167);
-  color: #000000;
+  background: #FFFAA7;
+  color: #000;
   font-size: 16px;
   font-weight: bold;
   border: none;
@@ -74,7 +76,7 @@
 }
 
 .Forms-Agendamento-De-Aula button.agendar-button:hover {
-  background: #ffff00;
+  background: #FFFF00;
 }
 
 .section-forms {
@@ -84,81 +86,8 @@
   border-radius: 15px;
 }
 
-/* Responsividade */
 @media screen and (max-width: 600px) {
   .Forms-Agendamento-De-Aula {
     width: 90%;
   }
-}
-
-/* Animações */
-.Forms-Agendamento-De-Aula:hover .Title-Forms {
-  font-size: 38px;
-  color:   #ff00ea;
-  transition: font-size 0.5s ease, color 0.5s ease;
-}
-
-.Seleção-De-Campo-De-Estudo{
-
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-  color: #050505;
-  outline: none;
-  transition: border-color 0.3s ease;
-  box-sizing: border-box;
-  
-
-}
-
-.Seleção-De-Campo-De-Estudo:hover {
-
-  border-color: #002900;
-
-}
-
-.Seleção-De-Componente-Curricular {
-
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-  color: #050505;
-  outline: none;
-  transition: border-color 0.3s ease;
-  box-sizing: border-box;
-  
-
-}
-
-.Seleção-De-Componente-Curricular:hover {
-
-  border-color: #002900;
-
-}
-
-.Seleção-De-Modalidade {
-
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-  color: #050505;
-  outline: none;
-  transition: border-color 0.3s ease;
-  box-sizing: border-box;
-
-}
-
-.Seleção-De-Modalidade:hover {
-
-  border-color: #002900;
-
 }

@@ -7,23 +7,19 @@
     <link rel="stylesheet" href="style-contato.css">
     <link rel="stylesheet" href="style-header.css">
     <script src="script-button.js"></script>
-
 </head>
 <body class="Pagina"> 
     <div class="Conteiner-Geral">
         <header class="header-texto">
             <h1 class="h1-header-texto">Entre Em Contato!</h1>
-            <div class="button-container">
-                <button class="return-button" onclick="Return_Button()">Voltar</button>
-            </div>
+            <button class="return-button" onclick="Return_Button()">Voltar</button>
         </header>
 
-        <div  class="Conteiner-Form-Contato">
-
+        <div class="Conteiner-Form-Contato">
             <form class="form-contato" action="">
                 <div class="form-group">
-                    <label class="email-input" for="email-input">Email:</label>
-                    <input class="input-email" type="email" name="email" id="email-input" required>
+                    <label for="email-input">Email:</label>
+                    <input type="email" id="email-input" required>
                 </div>
             
                 <div class="form-group">
@@ -33,10 +29,7 @@
             
                 <button class="submit-button" type="submit">Enviar</button>
             </form>
-            
-
         </div>
-
     </div>
 </body>
 </html>
