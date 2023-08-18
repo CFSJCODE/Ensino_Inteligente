@@ -29,6 +29,12 @@
   transition: font-size 0.5s ease, color 0.5s ease;
 }
 
+.Title-Forms:hover{
+
+font-size: 38px;
+
+}
+
 .Forms-Agendamento-De-Aula label {
   display: block;
   margin: 10px 0 5px;

@@ -1,4 +1,4 @@
-.Pagina {
+ .Pagina {
     display: flex;
     flex-direction: column;
     background: #f1dff1;
@@ -6,14 +6,15 @@
 
 .Conteiner-Form-Contato {
     padding: 30px;
-    width: 1000px;
-    margin: 0 auto;
+    /* width: 1000px; */
+    /* margin: 0 auto; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #f3b3f3;
     border-radius: 15px;
+    margin-top: 30px;
 }
 
 .input-text {
@@ -24,9 +25,9 @@
     margin-top: 30px;
     width: 100%;
     padding: 10px;
-    background: #c4e6c4;
-    color: #000;
-    font-size: 16px;
+    background: #bf4cdb;
+    color: #ffffff;
+    font-size: 18px;
     font-weight: bold;
     border: none;
     border-radius: 4px;
@@ -35,5 +36,127 @@
 }
 
 .submit-button:hover {
-    background: #b8e6b8;
+    background: #890b8d;
+    font-size: 28px;
+    font-weight: bold;
 }
+
+.email-input {
+
+font-size: 18px;
+margin-bottom: 10px;
+margin-top: 30px;
+
+}
+
+.input-enter {
+
+width: 600px;
+height: 30px;
+border-radius: 5px;
+border: none;
+margin-left: 20px;
+
+}
+
+.input-enter::placeholder{
+
+font-size: 18px;
+font-style: bolder;
+
+}
+
+.message-input {
+
+font-size: 18px;
+
+}
+
+.input-text {
+
+    width: 600px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 20px;
+
+} 
+
+.input-text::placeholder {
+
+    font-size: 18px;
+    font-style: bolder;
+
+}
+
+/* .form-group {
+
+
+display: flex;
+flex-direction: column;
+
+
+} */
+
+.Btn {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    /* overflow: hidden; */
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all .3s;
+  }
+  
+  .svgContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+    letter-spacing: 0.8px;
+    border-radius: 10px;
+    transition: all .3s;
+    border: 1px solid rgba(156, 156, 156, 0.466);
+  }
+  
+  .BG {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    z-index: -1;
+    border-radius: 9px;
+    pointer-events: none;
+    transition: all .3s;
+  }
+  
+  .Btn:hover .BG {
+    transform: rotate(35deg);
+    transform-origin: bottom;
+  }
+  
+  .Btn:hover .svgContainer {
+    background-color: rgba(156, 156, 156, 0.466);
+  }
+  
+  .instagram {
+
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 40px;
+
+  }
