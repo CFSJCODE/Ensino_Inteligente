@@ -2,6 +2,7 @@
   margin: 0;
   display: flex;
   flex-direction: column;
+  background: #F1D6F1 ;
 }
 
 .nome-da-empresa {
@@ -13,6 +14,7 @@
   text-align: center;
   color: #000;
   transition: background 0.3s ease, font-weight 0.3s ease, box-shadow 0.3s ease;
+  top: 0;
 }
 
 .nome-da-empresa:hover {
@@ -52,7 +54,7 @@
 
 .page-section {
   margin: 10px 20px;
-  background: #f1dff1;
+  background: #D6AED6;
   padding: 10px;
   border-radius: 15px;
   transition: box-shadow 0.3s ease;
@@ -83,7 +85,7 @@
 }
 
 .footer {
-  background: #f1dff1;
+  background: #D6AED6;
   padding: 20px;
   text-align: center;
   margin: 20px 15px;
@@ -121,4 +123,26 @@
   .button {
     width: 100%;
   }
+}
+
+.Logo {
+
+width: 250px;
+margin-right: 30px;
+
+}
+
+.logo-nome {
+
+display: flex;
+margin-top: 20px;
+margin-bottom: 20px;
+  justify-content: center; /* Centralizar horizontalmente */
+  align-items: center; /* Centralizar verticalmente */
+  /* height: 100vh;  */
+  /* Defina a altura para centralização vertical */
+
+
+
+
 }
