@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style-header.css">
     <script src="script-button.js"></script>
     <script src="selection-componente-curricular.js"></script>
+
 </head>
 <body class="Pagina"> 
     <div class="Conteiner-Geral">
@@ -76,13 +77,22 @@
                         <input class="data" type="date" id="data" name="data" required>
                     </div>
                     <div class="form-group">
+                      <label for="diasSemana">Selecione os dias da semana:</label>
+                        <select id="diasSemana" required>
+                            <option value="">Selecione</option>
+                            <option value="terca">Terça-feira</option>
+                            <option value="quinta">Quinta-feira</option>
+                            <option value="sexta">Sexta-feira</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
                         <label for="horario-select">Horário:</label>
                         <select class="horario" id="horario-select" name="horario" required>
                             <option value="">Selecione</option>
                             <option value="15:00">15:00</option>
-                            <option value="15:45">15:45</option>
-                            <option value="16:30">16:30</option>
-                            <option value="17:15">17:15</option>
+                            <option value="15:45">15:50</option>
+                            <option value="16:30">16:40</option>
+                            <option value="17:15">17:20</option>
                         </select>
                     </div>
                     <button class="agendar-button" type="submit">Agendar</button>
@@ -90,5 +100,29 @@
             </section>
         </div>
     </div>
+
+    <script>
+        const selectElement = document.getElementById('diasSemana');
+
+        selectElement.addEventListener('change', (event) => {
+            const selectedValue = event.target.value;
+
+            if (selectedValue === 'terca') {
+                selectElement.querySelector('option[value="quinta"]').disabled = true;
+                selectElement.querySelector('option[value="sexta"]').disabled = true;
+            } else if (selectedValue === 'quinta') {
+                selectElement.querySelector('option[value="terca"]').disabled = true;
+                selectElement.querySelector('option[value="sexta"]').disabled = true;
+            } else if (selectedValue === 'sexta') {
+                selectElement.querySelector('option[value="terca"]').disabled = true;
+                selectElement.querySelector('option[value="quinta"]').disabled = true;
+            } else {
+                selectElement.querySelectorAll('option[value="terca"], option[value="quinta"], option[value="sexta"]').forEach(option => {
+                    option.disabled = false;
+                });
+            }
+        });
+    </script>
+
 </body>
 </html>

@@ -13,3 +13,4 @@ document.querySelector('form').addEventListener('submit', function(event) {
 
   // Adicione aqui o código para agendar a aula (por exemplo, fazer chamadas de API).
 });
+
