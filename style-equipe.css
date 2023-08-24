@@ -1,0 +1,1085 @@
+.Page-Conteiner {
+
+    background: #F1D6F1;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+
+}
+
+.Convite-Conhecer-Equipe {
+
+    font-size: 20px;
+    text-align: justify;
+    font-weight: bolder;
+    font-family: "Monospace", monospace;
+    background: #D6AED6;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px;
+    transition: background 0.3s ease, font-weight 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Convite-Conhecer-Equipe:hover {
+
+    font-weight: bold;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.521);
+
+}
+
+/* Gestores */
+
+.Card-Pessoas {
+    background: #D6AED6;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: background 0.3s ease, font-weight 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Card-Pessoas:hover {
+
+    font-weight: bold;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.521);
+
+}
+
+
+.Cargo {
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.Card-Pessoas:hover .Cargo {
+    font-size: 50px;
+    transition: font-size 0.3s;
+}
+
+
+.Gestores-DIV {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background: #890b8d;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.Gestores-DIV:hover {
+
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.521);
+
+}
+
+.Gestores-Section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Gestora Lavinya */
+
+.Gestora-Lavinya {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.Gestora-Lavinya:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-Gestora-Lavinya {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-Gestora-Lavinya {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Gestor Pedro Henrique */
+
+.Gestor-PedroH {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.Gestor-PedroH:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-Gestor-PedroH {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-Gestor-PedroH {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Gestor Luís Eduardo */
+
+.Gestor-LuísEduardo {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.Gestor-LuísEduardo:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-Gestor-LuísEduardo {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-Gestor-LuísEduardo {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Departamento Financeiro */
+
+.DPF-DIV {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background: #890b8d;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.DPF-DIV:hover {
+
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.521);
+
+}
+
+.DPF-Section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* DPF Kauan */
+
+.DPF-Kauan {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.DPF-Kauan:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-DPF-Kauan {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-DPF-Kauan {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* DPF Lara  */
+
+.DPF-Lara {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.DPF-Lara:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-DPF-Lara {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-DPF-Lara {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* DPF Letícia */
+
+.DPF-Letícia {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.DPF-Letícia:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-DPF-Letícia {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-DPF-Letícia {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* DPF Gabriel */
+
+.DPF-Gabriel {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.DPF-Gabriel:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-DPF-Gabriel {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-DPF-Gabriel {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* DPF Geovanna */
+
+.DPF-Geovanna {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.DPF-Geovanna:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-DPF-Geovanna {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-DPF-Geovanna {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* DPF Luiz Alvarenga */
+
+.DPF-LuizAlvarenga {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.DPF-LuizAlvarenga:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-DPF-LuizAlvarenga {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-DPF-LuizAlvarenga {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Marketing */
+
+.Marketing-DIV {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background: #890b8d;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.Marketing-DIV:hover {
+
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.521);
+
+}
+
+.Marketing-Section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Marketing João */
+
+.Marketing-João {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.Marketing-João:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-João {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-João {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Marketing Isabella */
+
+.Marketing-Isabella {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.Marketing-Isabella:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-Isabella {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-Isabella {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Marketing Rafaela */
+
+.Marketing-Rafaela {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.Marketing-Rafaela:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-Rafaela {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-Rafaela {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Marketing Júlia */
+
+.Marketing-Júlia {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.Marketing-Júlia:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-Júlia {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-Júlia {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Marketing Thayná */
+
+.Marketing-Thayná {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.Marketing-Thayná:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-Thayná {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-Thayná {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Marketing Otávio */
+
+/* .Marketing-Otávio {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.Marketing-Otávio:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-Otávio {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-Otávio {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+} */
+
+/* Marketing Felipe-Antunes */
+
+.Marketing-Felipe-Antunes {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.Marketing-Felipe-Antunes:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-Felipe-Antunes {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-Felipe-Antunes {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Marketing Mariana */
+
+.Marketing-Mariana {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.Marketing-Mariana:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-Mariana {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-Mariana {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Departamento Comercial */
+
+.DPC-DIV {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background: #890b8d;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.DPC-DIV:hover {
+
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.521);
+
+}
+
+.DPC-Section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* DPC Arthur */
+
+.DPC-Arthur {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.DPC-Arthur:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-DPC-Arthur {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-DPC-Arthur {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* DPC Mathias */
+
+.DPC-Mathias {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.DPC-Mathias:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-DPC-Mathias {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-DPC-Mathias {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* DPC Karol */
+
+.DPC-Karol {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.DPC-Karol:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-DPC-Karol {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-DPC-Karol {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Controle De Qualidade */
+
+.CQ-DIV {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background: #890b8d;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.CQ-DIV:hover {
+
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.521);
+
+}
+
+.CQ-Section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Controle De Qualidade Antônio */
+
+.CQ-Antônio {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.CQ-Antônio:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-CQ-Antônio {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-CQ-Antônio {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Controle De Qualidade Thiago */
+
+.CQ-Thiago {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.CQ-Thiago:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-CQ-Thiago {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-CQ-Thiago {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Controle De Qualidade Otávio */
+
+.CQ-Otávio {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.CQ-Otávio:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-CQ-Otávio {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-CQ-Otávio {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Lógistica */
+
+.L-DIV {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background: #890b8d;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.L-DIV:hover {
+
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.521);
+
+}
+
+.L-Section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Lógistica Nicolas */
+
+.L-Nicolas {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.L-Nicolas:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-L-Nicolas {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-L-Nicolas {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Lógisitca Lucas */
+
+.L-Lucas {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.L-Lucas:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-L-Lucas {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-L-Lucas {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Lógisitca Matheus-Magalhães */
+
+.L-Matheus-Magalhães {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.L-Matheus-Magalhães:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-L-Matheus-Magalhães {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-L-Matheus-Magalhães {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Lógisitca Rafael */
+
+.L-Rafael {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.L-Rafael:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-L-Rafael {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-L-Rafael {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Tecnologia */
+
+.Tecnologia-DIV {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background: #890b8d;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.Tecnologia-DIV:hover {
+
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.521);
+
+}
+
+.Tecnologia-Section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Tecnologia Cláudio */
+
+.Tecnologia-Cláudio {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.Tecnologia-Cláudio:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-Tecnologia-Cláudio {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-Tecnologia-Cláudio {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Tecnologia Felipe-Eduardo */
+
+.Tecnologia-Felipe-Eduardo {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.Tecnologia-Felipe-Eduardo:hover {
+    transform: translateY(-5px);
+}
+
+.Nome-Felipe-Eduardo {
+    font-size: 24px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.Imagem-Felipe-Eduardo {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}

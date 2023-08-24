@@ -9,6 +9,8 @@
   background: linear-gradient(45deg, #da70d6, #ffd700);
   padding: 10px;
   border-radius: 15px;
+  /* border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px; */
   margin: 10px;
   font-size: 72px;
   text-align: center;
@@ -21,7 +23,9 @@
   background: linear-gradient(45deg, #800080, #ffff00);
   font-weight: bold;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.856);
+
 }
+
 
 .EnsinoInteligente {
   font-size: 72px;
@@ -30,7 +34,7 @@
 
 .button-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: right;
   align-items: center;
 }
 
@@ -53,7 +57,7 @@
 }
 
 .page-section {
-  margin: 10px 20px;
+  margin: 30px 20px;
   background: #D6AED6;
   padding: 10px;
   border-radius: 15px;

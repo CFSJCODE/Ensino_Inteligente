@@ -1,3 +1,7 @@
+function Equipe() {
+    window.location.href = 'Equipe.html';
+}
+
 function MarcaçãoDeAulas() {
     window.location.href = 'MarcaçãoDeAulas.html';
 }
