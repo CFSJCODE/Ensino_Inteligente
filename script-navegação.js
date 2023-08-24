@@ -2,6 +2,10 @@ function Equipe() {
     window.location.href = 'Equipe.html';
 }
 
+function MetodologiaDeEnsino() {
+    window.location.href = 'MetodologiaDeEnsino.html';
+}
+
 function MarcaçãoDeAulas() {
     window.location.href = 'MarcaçãoDeAulas.html';
 }

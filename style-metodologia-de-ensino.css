@@ -1,0 +1,29 @@
+.Pagina {
+    display: flex;
+    flex-direction: column;
+    background: #F1D6F1;
+  }
+  
+  .Content {
+    background: #D6AED6;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+  }
+  
+  .text-aprendizado-continuo {
+    font-size: 38px;
+    font-weight: bolder;
+  }
+  
+  .DIV-Vídeo {
+    max-width: 90%; /* Limita a largura da DIV-Vídeo a 90% do elemento pai */
+    margin: auto; /* Centraliza a DIV-Vídeo horizontalmente */
+    overflow: hidden; /* Impede que o vídeo ultrapasse os limites da DIV-Vídeo */
+  }
+  
+  .vídeo {
+    width: 100%; /* O vídeo ocupa 100% da largura da DIV-Vídeo */
+    height: auto; /* A altura se ajusta automaticamente para manter a proporção */
+  }
+  
