@@ -10,6 +10,10 @@ function MarcaçãoDeAulas() {
     window.location.href = 'MarcaçãoDeAulas.html';
 }
 
+function Planos() {
+    window.location.href = 'Planos.html';
+}
+
 function Compras() {
     window.location.href = 'Compras.html';
 }
