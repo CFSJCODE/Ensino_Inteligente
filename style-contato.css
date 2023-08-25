@@ -1,6 +1,7 @@
  .Pagina {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     background: #f1dff1;
 }
 

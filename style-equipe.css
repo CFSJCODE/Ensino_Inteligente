@@ -1,6 +1,7 @@
 .Pagina {
 
 background:#F1D6F1;
+flex-wrap: wrap;
 
 }
 
@@ -1122,6 +1123,7 @@ background:#F1D6F1;
     .L-Section,
     .Tecnologia-Section {
         flex-direction: column;
+        flex-wrap: wrap;
     }
 }
 

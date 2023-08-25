@@ -9,6 +9,7 @@
   border-radius: 15px;
   /* transition: background 0.3s ease, font-weight 0.3s ease, box-shadow 0.3s ease; */
   border: none;
+  flex-wrap: wrap;
 }
 
 .header-texto:hover {

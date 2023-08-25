@@ -3,6 +3,7 @@
     flex-direction: column;
     background: #F1D6F1;
     /* background-image: url(Metodologias\ ativas.jpg); */
+    flex-wrap: wrap;
     
   }
 

@@ -4,6 +4,7 @@
   flex-direction: column;
   font-family: monospace;
   background: #D6AED6;
+  flex-wrap: wrap;
 }
 
 .Forms-Agendamento-De-Aula {
