@@ -208,3 +208,24 @@ display: flex;
 justify-content: space-between;
 
 }
+
+/* ... (your existing CSS code) ... */
+
+/* Media query for screens smaller than 500px */
+@media (max-width: 500px) {
+  .DIV-LogoNomeBotoes {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .button-container {
+    width: 100%; /* Ensure buttons take full width */
+    margin-top: 10px; /* Add some space between title/logo and buttons */
+  }
+
+  .button {
+    width: 100%; /* Make buttons take full width */
+  }
+}
+
+/* ... (your existing CSS code) ... */
