@@ -2,6 +2,25 @@
     display: flex;
     flex-direction: column;
     background: #F1D6F1;
+    /* background-image: url(Metodologias\ ativas.jpg); */
+    
+  }
+
+  .mapamentalmetodologiasativas {
+
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+
+  }
+
+  .img-metodologias {
+
+    background-repeat: no-repeat;
+    background-size: cover; /* ou "contain" para ajustar a imagem */
+    background-position: center center;
+
   }
   
   .Content {
@@ -9,13 +28,25 @@
     padding: 20px;
     margin: 20px;
     border-radius: 15px;
+    background-image: linear-gradient(rgba(214, 174, 214, 0.75), rgba(214, 174, 214, 0.877)), url("metodologiadeensino.webp");
+    background-size: cover;
   }
   
   .text-aprendizado-continuo {
     font-size: 38px;
     font-weight: bolder;
+    
   }
   
+  .section-geral {
+
+  background-image: url(metodologiadeensino01.webp);
+  padding: 100px;
+  margin: 20px;
+  border-radius: 15px;
+
+}
+
   .DIV-Vídeo {
     max-width: 90%; /* Limita a largura da DIV-Vídeo a 90% do elemento pai */
     margin: auto; /* Centraliza a DIV-Vídeo horizontalmente */

@@ -10,6 +10,10 @@ function MarcaçãoDeAulas() {
     window.location.href = 'MarcaçãoDeAulas.html';
 }
 
+function Compras() {
+    window.location.href = 'Compras.html';
+}
+
 function Page_AulasAoVivo() {
     window.location.href = 'URL_DA_PAGINA_AULAS_AO_VIVO';
 }

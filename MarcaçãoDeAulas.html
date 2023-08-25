@@ -30,7 +30,7 @@
                             <option value="Ciências Da Natureza">Ciências Da Natureza</option>
                             <option value="Ciências Humanas">Ciências Humanas</option>
                             <option value="Linguagens">Linguagens</option>
-                            <option value="Cursos De Extensão Curricular">Cursos De Extensão Curricular</option>
+                            <!-- <option value="Cursos De Extensão Curricular">Cursos De Extensão Curricular</option> -->
                         </select>
                     </div>
                     <div class="form-group">
@@ -38,9 +38,23 @@
                         <select class="Seleção-De-Componente-Curricular" id="componente-curricular-select" required>
                             <option value="">Selecione</option>
                             <option value="Matemática">Matemática</option>
-                            <option value="Estratégias Financeiras">Estratégias Financeiras</option>
-                            <option value="Matemática Aplicada A Computação">Matemática Aplicada A Computação</option>
-                            <option value="Biotecnologia">Biotecnologia</option>
+                            <option value="Biologia">Biologia</option>
+                            <option value="Quimica">Quimica</option>
+                            <option value="Fisica">Fisica</option>
+                            <option value="Geografia">Geografia</option>
+                            <option value="História">História</option>
+                            <option value="Sociologia">Sociologia</option>
+                            <option value="Filosofia">Filosofia</option>
+                            <option value="Língua Portuguesa">Língua Portuguesa</option>
+                            <option value="Produção De Texto">Produção De Texto</option>
+
+
+                            <option value="IF - Vai Render!">IF - Vai Render!</option>
+                            <option value="IF - Solta O Verbo">IF - Solta O Verbo</option>
+
+                            <!-- <option value="Estratégias Financeiras">Estratégias Financeiras</option>
+                            <option value="Matemática Aplicada A Computação">Matemática Aplicada A Computação</option> -->
+                            <!-- <option value="Biotecnologia">Biotecnologia</option>
                             <option value="Astrofísica">Astrofísica</option>
                             <option value="Física Teorica">Física Teorica</option>
                             <option value="Filosofia Da Informação">Filosofia Da Informação</option>
@@ -49,8 +63,9 @@
                             <option value="A História Da Tecnologia E Os Seus Impactos Socioculturais">A História Da Tecnologia E Os Seus Impactos Socioculturais</option>
                             <option value="Dominio Linguistico E Comunicação">Dominio Linguistico E Comunicação</option>
                             <option value="Produção Editorial">Produção Editorial</option>
-                            <option value="Comunição Corporativa E Mentorias Corporativas">Comunição Corporativa E Mentorias Corporativas</option>
-                            <option value="Introdução A Informática E Os Seus Princípios">Introdução A Informática E Os Seus Princípios</option>
+                            <option value="Comunição Corporativa E Mentorias Corporativas">Comunição Corporativa E Mentorias Corporativas</option> -->
+
+                            <!-- <option value="Introdução A Informática E Os Seus Princípios">Introdução A Informática E Os Seus Princípios</option>
                             <option value="Introdução Aos Fundamentos De Elétrica Residencial">Introdução Aos Fundamentos De Elétrica Residencial</option>
                             <option value="Implementação De Sistemas De Automação Residencial Centralizado E Cabeado">Implementação De Sistemas De Automação Residencial</option>
                             <option value="Introdução A Eletrônica">Introdução A Eletrônica</option>
@@ -61,7 +76,7 @@
                             <option value="Infraestrutura De TI">Infraestrutura De TI</option>
                             <option value="Artesanato E Atelier">Artesanato E Atelier</option>
                             <option value="Música">Música</option>
-                            <option value="Desenvolvimento De Projetos Pessoais">Desenvolvimento De Projetos Pessoais</option>
+                            <option value="Desenvolvimento De Projetos Pessoais">Desenvolvimento De Projetos Pessoais</option> -->
                         </select>
                     </div>
                     <div class="form-group">
@@ -95,7 +110,19 @@
                             <option value="17:15">17:20</option>
                         </select>
                     </div>
-                    <button class="agendar-button" type="submit">Agendar</button>
+                    <div class="button-container">
+                        <button class="agendar-button" type="submit" onclick="redirectToCompras()">
+                            Agendar
+                        </button>
+
+                        <script>
+                            function redirectToCompras() {
+                              window.location.href = "Compras.html";
+                            }
+                          </script>
+                          
+
+                      </div>
                 </form>
             </section>
         </div>
