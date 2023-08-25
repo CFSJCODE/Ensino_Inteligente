@@ -1,34 +1,46 @@
 .header-texto {
-  background: linear-gradient(45deg, #da70d6, #ffd700);
-  padding: 10px;
-  border-radius: 15px;
-  margin: 10px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  text-align: center;
+  justify-content: space-between;
   align-items: center;
-  transition: background 0.3s ease, font-weight 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(45deg, #da70d6, #ffd700);
+  margin: 20px;
+  padding: 20px; /* Aumenta o espaçamento interno para 20px */
+  border-radius: 15px;
+  /* transition: background 0.3s ease, font-weight 0.3s ease, box-shadow 0.3s ease; */
+  border: none;
 }
 
 .header-texto:hover {
   background: linear-gradient(45deg, #800080, #ffff00);
   font-weight: bold;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.856);
+  border: none;
+
 }
 
 .h1-header-texto {
   font-size: 72px;
-  text-align: center;
+  text-align: center; /* Centraliza o texto */
   color: #fff;
+  margin: 0;
 }
 
 .button-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  margin-top: 20px;
 }
+
+.Logo {
+  width: 250px;
+  margin-right: 30px;
+}
+
+/* ... (seu código CSS posterior) ... */
+
+
+/* ... (seu código CSS posterior) ... */
+
 
 .return-button {
   width: 140px;

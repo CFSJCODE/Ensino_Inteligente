@@ -97,3 +97,26 @@ font-size: 38px;
     width: 90%;
   }
 }
+.header-texto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(45deg, #da70d6, #ffd700);
+  padding: 20px; /* Adiciona espaçamento de 20px */
+  border-radius: 15px;
+  transition: background 0.3s ease, font-weight 0.3s ease, box-shadow 0.3s ease;
+}
+
+.header-texto:hover {
+  background: linear-gradient(45deg, #800080, #ffff00);
+  font-weight: bold;
+  /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.856); */
+}
+
+.h1-header-texto {
+  font-size: 72px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+}
+

@@ -57,26 +57,32 @@
 }
 
 .page-section {
+  position: relative;
   margin: 30px 20px;
-  background: #D6AED6;
   padding: 10px;
+
   border-radius: 15px;
   transition: box-shadow 0.3s ease;
+  background-image: url("Imagem-Página-Inicial.jpg");
+  background-size: cover; /* Para ajustar a imagem ao tamanho do container */
+  background: rgba(214, 174, 214, 0.75); /* Cor de fundo com 75% de opacidade */
 }
 
 .page-section:hover {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.452);
 }
 
+/* ... (seu código CSS anterior) ... */
+
+
 .texto-corporativo {
   text-align: justify;
-  font-size: 32px;
   font-family: monospace;
 }
 
 .texto-corporativo-in {
   text-align: center;
-  font-size: 38px;
+  font-size: 24px;
   font-family: monospace;
   font-weight: bolder;
 }
@@ -129,24 +135,75 @@
   }
 }
 
-.Logo {
-
-width: 250px;
-margin-right: 30px;
-
-}
+/* ... (seu código CSS anterior) ... */
 
 .logo-nome {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center; /* Centralizar verticalmente */
+}
+
+.h1-header-texto {
+  font-size: 72px;
+  text-align: left; /* Alinha o texto à esquerda */
+  color: #fff;
+  margin: 0;
+}
+
+
+.Logo {
+  width: 250px;
+  margin-right: 30px;
+}
+
+.content-corporativo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.DIV-IMG-Corporativa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.IMG-Corporativa {
+  width: 1000px;
+  height: 500px;
+  border-radius: 15px;
+  opacity: 0.72;
+}
+
+.texto-corporativo {
+  text-align: justify;
+  font-size: 20px;
+  font-family: monospace;
+  flex: 1; /* Para ocupar o espaço restante ao lado da imagem */
+}
+
+/* ... (seu código CSS posterior) ... */
+
+.page {
+
+  /* background-image: cover;
+  background-image: url("Imagem-Página-Inicial.jpg"); */
+  position: relative;
+  margin: 30px 20px;
+  padding: 20px;
+  /* font-size: 40px; */
+  border-radius: 15px;
+  transition: box-shadow 0.3s ease;
+  background-image: linear-gradient(rgba(214, 174, 214, 0.75), rgba(214, 174, 214, 0.397)), url("Imagem-Página-Inicial.jpg");
+  background-size: cover;
+}
+
+.DIV-LogoNomeBotoes {
 
 display: flex;
-margin-top: 20px;
-margin-bottom: 20px;
-  justify-content: center; /* Centralizar horizontalmente */
-  align-items: center; /* Centralizar verticalmente */
-  /* height: 100vh;  */
-  /* Defina a altura para centralização vertical */
-
-
-
+justify-content: space-between;
 
 }
