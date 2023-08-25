@@ -1,26 +1,25 @@
 .modal {
-    width: fit-content;
-    height: fit-content;
+    width: 100%;
     background: #FFFFFF;
     box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01), 0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09), 0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
     border-radius: 26px;
     max-width: 450px;
-  }
-  
-  .form {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 20px;
-  }
-  
-  .payment--options {
-    width: calc(100% - 40px);
+}
+
+.payment--options {
     display: grid;
-    grid-template-columns: 33% 34% 33%;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 20px;
     padding: 10px;
-  }
+}
   
   .payment--options button {
     height: 55px;
@@ -191,3 +190,17 @@
     border-radius: 15px;
 
   }
+
+  /* Media query para telas menores, como celulares */
+@media (max-width: 768px) {
+    .modal {
+        width: 90%; /* Reduz a largura para 90% */
+        border-radius: 15px; /* Ajusta o raio do border-radius */
+    }
+
+    .payment--options {
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); /* Ajusta a largura das opções de pagamento */
+    }
+
+    /* ... outros ajustes para telas menores ... */
+}
