@@ -1127,6 +1127,26 @@ flex-wrap: wrap;
     }
 }
 
+/* Existing CSS code */
+
+/* Add media queries for responsiveness */
+@media (max-width: 500px) {
+    .Gestores-DIV,
+    .DPF-DIV,
+    .Marketing-DIV,
+    .DPC-DIV,
+    .CQ-DIV,
+    .L-DIV,
+    .Tecnologia-DIV {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .Card-Pessoas {
+      margin: 10px 0;
+    }
+  }
+  
 
 
 
