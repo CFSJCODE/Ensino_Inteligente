@@ -1,0 +1,51 @@
+.body-page {
+    background: #F1D6F1;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.section-texto-introdução {
+    font-size: 20px;
+    text-align: justify;
+    font-weight: bolder;
+    font-family: "Monospace", monospace;
+    background: #D6AED6;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px;
+    transition: background 0.3s ease, font-weight 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Adicione este estilo CSS ao seu arquivo style.css ou dentro de uma tag <style> no head do HTML */
+.buttons a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: black;
+}
+
+.ciencias-humanas-button,
+.linguagens-button,
+.exatas-button {
+  width: 150px; /* Aplicando largura aos botões */
+  height: 70px; /* Aplicando altura aos botões */
+  font-size: 16px;
+  border: none;
+  margin: 10px;
+  border-radius: 5px;
+  background: #ffffa7;
+  cursor: pointer;
+  color: #000;
+  text-decoration: none; /* Removendo a decoração de link */
+  display: inline-block; /* Para ajustar a largura e a altura corretamente */
+  text-align: center;
+  line-height: 70px; /* Centralizando verticalmente o texto no botão */
+}
+
+.ciencias-humanas-button:hover,
+.linguagens-button:hover,
+.exatas-button:hover {
+  background: #ffff00;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Linguagens */

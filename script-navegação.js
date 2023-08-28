@@ -23,7 +23,7 @@ function Page_AulasAoVivo() {
 }
 
 function Page_AulasGravadas() {
-    window.location.href = 'URL_DA_PAGINA_AULAS_GRAVADAS';
+    window.location.href = 'AulasGravadas.html';
 }
 
 function Page_EntreEmContato() {
